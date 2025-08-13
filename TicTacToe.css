@@ -1,0 +1,105 @@
+.Spielfeld {
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    padding: 30px;
+}
+
+.Spielfeld > div {
+    background-color: #afafaf;
+    border: 3px solid rgb(255, 255, 255);
+    height: 160px;
+    width: 160px;
+  }
+
+h1{
+    color: #afafaf;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.Feld12, .Feld11, .Feld13, .Feld21, .Feld22, .Feld23, .Feld31, .Feld32, .Feld33{
+    margin-bottom: -2px;
+}
+
+.Spieler1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(221, 221, 221, 0.74);
+    border-radius: 10px;
+    border-color: rgba(156, 156, 156, 0.226);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 50px;
+}
+
+.Spieler2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(221, 221, 221, 0.74);
+    border-radius: 10px;
+    border-color: rgba(156, 156, 156, 0.226);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.Spieler1:hover, .Spieler2:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(56, 56, 56, 0.788);
+    border-radius: 60px;
+    border-color: rgba(0, 0, 0, 0.226);
+    transition: 0.5s;
+    color: white;
+}
+
+.Kreuz11, .Kreis11{
+    height: 50px;
+    width: 50px;
+    transform:translate(55px,55px);
+}
+.textspiel {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 210px;
+}
+
+.neuesSpiel{
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-color: rgb(136, 136, 136);
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+.neuesSpiel:hover{
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-color: rgb(219, 219, 219);
+    background-color: rgb(185, 185, 185);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.gesamt{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
